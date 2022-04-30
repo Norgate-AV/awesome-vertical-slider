@@ -17,8 +17,7 @@ function setBar() {
     } else {
         controlBox.classList.remove("on");
     }
-
-    cbSlider.addEventListener("input", setBar);
 }
 
+cbSlider.addEventListener("input", setBar);
 setBar();
